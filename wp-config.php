@@ -20,10 +20,10 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = '';
-$connectstr_dbname = '';
-$connectstr_dbusername = '';
-$connectstr_dbpassword = '';
+$connectstr_dbhost = 'juliobd.database.windows.net';
+$connectstr_dbname = 'JULIODB';
+$connectstr_dbusername = 'admin123';
+$connectstr_dbpassword = 'Datos123*';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
